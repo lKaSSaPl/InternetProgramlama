@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan sitesi\\page\\anasayfa.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|solutionrelative:\u0130lan sitesi\\page\\anasayfa.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|c:\\users\\enes tepe\\desktop\\hata null\\\u0130lan sitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|solutionrelative:\u0130lan sitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan sitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|solutionrelative:\u0130lan sitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan sitesi\\views\\home\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|solutionrelative:\u0130lan sitesi\\views\\home\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan sitesi\\models\\\u0130lan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BDC4CB7-6478-4890-99D5-AE2026BF36CF}|\u0130lan Sitesi\\\u0130lan Sitesi.csproj|solutionrelative:\u0130lan sitesi\\models\\\u0130lan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Anasayfa.html",
+              "DocumentMoniker": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Page\\Anasayfa.html",
+              "RelativeDocumentMoniker": "\u0130lan Sitesi\\Page\\Anasayfa.html",
+              "ToolTip": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Page\\Anasayfa.html",
+              "RelativeToolTip": "\u0130lan Sitesi\\Page\\Anasayfa.html",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAwwLQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-15T14:15:51.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u0130lan.cs",
+              "DocumentMoniker": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Models\\\u0130lan.cs",
+              "RelativeDocumentMoniker": "\u0130lan Sitesi\\Models\\\u0130lan.cs",
+              "ToolTip": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Models\\\u0130lan.cs",
+              "RelativeToolTip": "\u0130lan Sitesi\\Models\\\u0130lan.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:10:23.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detay.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Views\\Home\\Detay.cshtml",
+              "RelativeDocumentMoniker": "\u0130lan Sitesi\\Views\\Home\\Detay.cshtml",
+              "ToolTip": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Views\\Home\\Detay.cshtml",
+              "RelativeToolTip": "\u0130lan Sitesi\\Views\\Home\\Detay.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T14:21:52.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0130lan Sitesi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "\u0130lan Sitesi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAmwDwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T14:21:24.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "\u0130lan Sitesi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Enes Tepe\\Desktop\\hata null\\\u0130lan Sitesi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "\u0130lan Sitesi\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA8wBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T18:57:15.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
