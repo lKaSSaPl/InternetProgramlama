@@ -1,0 +1,92 @@
+﻿@model IEnumerable<WebApplication10.Models.İlan>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <br />
+    <div class="row">
+        <!--Slider  -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               @Html.Action("Slider","Home")
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <!-- Filtreleme Kısmı -->
+            <form class="row">
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">En Az</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="En Az(Fiyat)">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">En Çok</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="En Çok(Fiyat)">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Şehir</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Şehir">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Durum</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Durum">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Marka</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Marka">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Model</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Model">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label"></label>
+                    <div class="col-sm-8">
+                        <button type="submit" class="btn btn-outline-primary col-12"><i class="bi bi-search"></i> FİLTRELE</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3">
+                <br />
+                <!-- ilan Listesi -->
+                <div class="img-thumbnail">
+                    <a href="#"> <img src="/Content/images/a1.jpg" class="card-img-top" alt="..." height="200"></a>
+                    <div class="card-body">
+                        <h6 class="card-title">@item.ModelId.</h6>
+                        <h6 class="card-title" style="color:darkblue">Model Yılı:2020 (12000 km)</h6>
+                        <h5 class="card-title" style="color:red">12500 tl</h5>
+
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+</div>

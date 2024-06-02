@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ArabaSitesiDBModelStoreContainer" CdmEntityContainer="ArabaSitesiDBEntities">
+    <EntitySetMapping Name="Durum">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.Durum">
+        <MappingFragment StoreEntitySet="Durum">
+          <ScalarProperty Name="DurumId" ColumnName="DurumId" />
+          <ScalarProperty Name="DurumAd" ColumnName="DurumAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="İlan">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.İlan">
+        <MappingFragment StoreEntitySet="İlan">
+          <ScalarProperty Name="IlanId" ColumnName="IlanId" />
+          <ScalarProperty Name="IlanNo" ColumnName="IlanNo" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+          <ScalarProperty Name="Tarhi" ColumnName="Tarhi" />
+          <ScalarProperty Name="Kilometre" ColumnName="Kilometre" />
+          <ScalarProperty Name="YakitTuru" ColumnName="YakitTuru" />
+          <ScalarProperty Name="ModelYili" ColumnName="ModelYili" />
+          <ScalarProperty Name="VitesTuru" ColumnName="VitesTuru" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="DurumId" ColumnName="DurumId" />
+          <ScalarProperty Name="MarkaId" ColumnName="MarkaId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="SehirId" ColumnName="SehirId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.Marka">
+        <MappingFragment StoreEntitySet="Marka">
+          <ScalarProperty Name="MarkaId" ColumnName="MarkaId" />
+          <ScalarProperty Name="MarkaAd" ColumnName="MarkaAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Model">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.Model">
+        <MappingFragment StoreEntitySet="Model">
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="ModelAd" ColumnName="ModelAd" />
+          <ScalarProperty Name="MarkaId" ColumnName="MarkaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resim">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.Resim">
+        <MappingFragment StoreEntitySet="Resim">
+          <ScalarProperty Name="ResimId" ColumnName="ResimId" />
+          <ScalarProperty Name="ResimAd" ColumnName="ResimAd" />
+          <ScalarProperty Name="IlanId" ColumnName="IlanId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sehir">
+      <EntityTypeMapping TypeName="ArabaSitesiDBModel.Sehir">
+        <MappingFragment StoreEntitySet="Sehir">
+          <ScalarProperty Name="SehirId" ColumnName="SehirId" />
+          <ScalarProperty Name="SehirAd" ColumnName="SehirAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
